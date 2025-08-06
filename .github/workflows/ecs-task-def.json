@@ -4,7 +4,7 @@
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "256",
   "memory": "512",
-  "executionRoleArn": "arn:aws:iam::807837603367.dkr.ecr.us-east-1.amazonaws.com/wizcracker-ecr",
+  "executionRoleArn": "arn:aws:iam::807837603367:role/wizcracker-ecs-task-execution-role",
   "containerDefinitions": [
     {
       "name": "wizcracker-container",
